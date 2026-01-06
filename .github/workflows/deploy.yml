@@ -36,5 +36,5 @@ jobs:
         run: |
           # O Quarkus gera o zip de deploy em target/function.zip
           aws lambda update-function-code \
-            --function-name eaa-postech-submit-feedback \
+            --function-name SubmitFeedback \
             --zip-file fileb://target/function.zip
